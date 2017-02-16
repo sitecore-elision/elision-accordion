@@ -45,6 +45,36 @@
     <SitecoreAccessGuid>
     </SitecoreAccessGuid>
   </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <PackageName>Elision.Feature.Accordion.Fixtures</PackageName>
+    <PackageAuthor>Jeffrey Rondeau</PackageAuthor>
+    <PackagePublisher>Jeffrey Rondeau</PackagePublisher>
+    <PackageVersion>0.0.1</PackageVersion>
+    <PackageReadme />
+    <SitecoreAssemblyPath />
+    <GeneratePackage>True</GeneratePackage>
+    <SeperateFilesAndItems>False</SeperateFilesAndItems>
+    <PackageExcludeCode>False</PackageExcludeCode>
+    <AddDateTimeToPackageName>False</AddDateTimeToPackageName>
+    <NuGetGenerateNuGetPackage>True</NuGetGenerateNuGetPackage>
+    <NuGetExePath>..\.nuget</NuGetExePath>
+    <NuGetSummary />
+    <NuGetDescription>TDS Feature Layer Item Fixtures for use with Elision Accordion.  Compatible with Sitecore 8.2 Update 2.</NuGetDescription>
+    <NuGetTitle>Elision.Feature.Accordion TDS Fixtures</NuGetTitle>
+    <NuGetVersion>0.0.1</NuGetVersion>
+    <NuGetPackageId>Elision.Feature.Accordion.Fixtures</NuGetPackageId>
+    <NuGetAuthors>jrondeau</NuGetAuthors>
+    <NuGetOwners>jrondeau</NuGetOwners>
+    <NuGetCopyright />
+    <NuGetLicenseUrl />
+    <NuGetIconUrl />
+    <NuGetProjectUrl>https://github.com/sitecore-elision/elision-accordion</NuGetProjectUrl>
+    <NuGetTags>sitecore elision feature accordion tds fixtures</NuGetTags>
+    <NuGetReleaseNotes />
+    <NuGetLanguage />
+    <NuGetRequireLicenseAcceptance>False</NuGetRequireLicenseAcceptance>
+    <NuGetDependencies />
+  </PropertyGroup>
   <ItemGroup>
     <AssemblyAttributes Include="AssemblyFileVersion">
       <Value>$(AssemblyFileVersion)</Value>
