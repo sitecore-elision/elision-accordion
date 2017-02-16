@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elision.Feature.Template.Accordion", "Elision.Feature.Template.Accordion\Elision.Feature.Template.Accordion.csproj", "{665F4049-DC7F-46CC-8CF4-5BD12376F35B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deployment", "Deployment", "{F6CB3CD4-7BB3-4180-AACA-0B3365FC211C}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "Elision.Feature.Template.Accordion.TDS.Fixtures", "Elision.Feature.Template.Accordion.TDS.Fixtures\Elision.Feature.Template.Accordion.TDS.Fixtures.scproj", "{16ED76C3-88D6-4DFE-A79D-4238AB3162A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".tds", ".tds", "{5B111C82-789E-47B0-81C5-8631F461380A}"
+	ProjectSection(SolutionItems) = preProject
+		TdsGlobal.config = TdsGlobal.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elision.Feature.Template.Accordion.SC.Integration", "Elision.Feature.Template.Accordion.SC.Integration\Elision.Feature.Template.Accordion.SC.Integration.csproj", "{63E82458-A958-4DCC-B0F1-B0C2CAFA0FC9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration", "{E45186D0-0A3D-4CB0-9A41-97DDE2639D34}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Local|Any CPU = Local|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{665F4049-DC7F-46CC-8CF4-5BD12376F35B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{665F4049-DC7F-46CC-8CF4-5BD12376F35B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{665F4049-DC7F-46CC-8CF4-5BD12376F35B}.Local|Any CPU.ActiveCfg = Local|Any CPU
+		{665F4049-DC7F-46CC-8CF4-5BD12376F35B}.Local|Any CPU.Build.0 = Local|Any CPU
+		{665F4049-DC7F-46CC-8CF4-5BD12376F35B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{665F4049-DC7F-46CC-8CF4-5BD12376F35B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16ED76C3-88D6-4DFE-A79D-4238AB3162A4}.Debug|Any CPU.ActiveCfg = Local|Any CPU
+		{16ED76C3-88D6-4DFE-A79D-4238AB3162A4}.Debug|Any CPU.Build.0 = Local|Any CPU
+		{16ED76C3-88D6-4DFE-A79D-4238AB3162A4}.Debug|Any CPU.Deploy.0 = Local|Any CPU
+		{16ED76C3-88D6-4DFE-A79D-4238AB3162A4}.Local|Any CPU.ActiveCfg = Local|Any CPU
+		{16ED76C3-88D6-4DFE-A79D-4238AB3162A4}.Release|Any CPU.ActiveCfg = Local|Any CPU
+		{16ED76C3-88D6-4DFE-A79D-4238AB3162A4}.Release|Any CPU.Build.0 = Local|Any CPU
+		{16ED76C3-88D6-4DFE-A79D-4238AB3162A4}.Release|Any CPU.Deploy.0 = Local|Any CPU
+		{63E82458-A958-4DCC-B0F1-B0C2CAFA0FC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63E82458-A958-4DCC-B0F1-B0C2CAFA0FC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63E82458-A958-4DCC-B0F1-B0C2CAFA0FC9}.Local|Any CPU.ActiveCfg = Release|Any CPU
+		{63E82458-A958-4DCC-B0F1-B0C2CAFA0FC9}.Local|Any CPU.Build.0 = Release|Any CPU
+		{63E82458-A958-4DCC-B0F1-B0C2CAFA0FC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63E82458-A958-4DCC-B0F1-B0C2CAFA0FC9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{16ED76C3-88D6-4DFE-A79D-4238AB3162A4} = {F6CB3CD4-7BB3-4180-AACA-0B3365FC211C}
+		{63E82458-A958-4DCC-B0F1-B0C2CAFA0FC9} = {E45186D0-0A3D-4CB0-9A41-97DDE2639D34}
+	EndGlobalSection
+EndGlobal
