@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elision.Feature.Template.Ac
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deployment", "Deployment", "{F6CB3CD4-7BB3-4180-AACA-0B3365FC211C}"
 EndProject
-Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "Elision.Feature.Template.Accordion.TDS.Fixtures", "Elision.Feature.Template.Accordion.TDS.Fixtures\Elision.Feature.Template.Accordion.TDS.Fixtures.scproj", "{16ED76C3-88D6-4DFE-A79D-4238AB3162A4}"
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "Elision.Feature.Template.Accordion.Fixtures", "Elision.Feature.Template.Accordion.Fixtures\Elision.Feature.Template.Accordion.Fixtures.scproj", "{16ED76C3-88D6-4DFE-A79D-4238AB3162A4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".tds", ".tds", "{5B111C82-789E-47B0-81C5-8631F461380A}"
 	ProjectSection(SolutionItems) = preProject
