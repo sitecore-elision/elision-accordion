@@ -190,16 +190,6 @@
     <CodeGenTemplate Include="Code Generation Templates\structitem.tt" />
   </ItemGroup>
   <ItemGroup>
-    <BundledProject Include="..\Feature.Accordion.TDS.Core\Elision.Feature.Template.Accordion.TDS.Core.scproj">
-      <ProjectId>{c3f76430-79f9-41ff-a2a6-1817eef67070}</ProjectId>
-    </BundledProject>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Feature.Accordion.TDS.Core\Elision.Feature.Template.Accordion.TDS.Core.scproj">
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets" Condition="Exists('$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets')" />
