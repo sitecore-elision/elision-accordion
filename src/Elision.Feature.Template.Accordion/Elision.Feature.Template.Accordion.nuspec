@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Elision.Feature.Accordion</id>
+    <version>$version$</version>
+    <title>Elision Accordion Feature for Sitecore</title>
+    <authors>jrondeau</authors>
+    <owners>jrondeau</owners>
+    <projectUrl>https://github.com/sitecore-elision/elision-accordion</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This is the Elision accordion feature package to reference if you need to install the entire feature. If you are building a module or other code that just needs to reference the Elision accordion feature, use the Elision.Feature.Accordion-redist package instead.</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>sitecore elision feature accordion</tags>
+  </metadata>
+  <files>
+    <file src="..\..\BuildScripts\*.ps1" target="tools" />
+    <file src="..\Elision.Feature.Template.Accordion.SC.Integration\**\*.*" target="lib\Elision\Elision.Feature.Template.Accordion.SC.Integration" exclude="**\bin\**\*.*;**\obj\**\*.*" />
+    <file src="..\Elision.Feature.Template.Accordion\**\*.*" target="lib\Elision\Elision.Feature.Template.Accordion" exclude="**\bin\**\*.*;**\obj\**\*.*;*.nuspec" />
+  </files>
+</package>

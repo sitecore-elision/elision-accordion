@@ -1,0 +1,11 @@
+﻿@using Elision.Feature.Template.Accordion.SC.Integration
+@using Sitecore.Mvc
+
+<li class="accordion__section js-accordion-section">
+    <h1 class="heading heading--medium-alt accordion__heading">
+        <button class="accordion__trigger js-accordion-trigger">@Html.Sitecore().Field(Templates.AccordionSection.FieldNames.HeadingText)</button>
+    </h1>
+    <div class="accordion__content js-accordion-content">
+        @Html.Sitecore().Field(Templates.AccordionSection.FieldNames.Text)        
+    </div>
+</li>

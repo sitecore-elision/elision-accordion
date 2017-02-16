@@ -1,0 +1,75 @@
+----item----
+version: 1
+id: {3D3579D2-0449-47BF-B8D3-4B15E9E66868}
+database: master
+path: /sitecore/system/Settings/Rules/Placeholder Settings/Rules/ElisionFeatureTemplateAccordion
+parent: {1D38B82B-6CFD-4F8F-8745-5364DA58107E}
+name: ElisionFeatureTemplateAccordion
+master: {00000000-0000-0000-0000-000000000000}
+template: {D9BDF22F-6E17-47F3-AB64-49C717BA92DA}
+templatekey: Rule
+created: 20170216T160650Z
+
+----field----
+field: {908EF45D-4940-4B6A-857D-3739BA4ACF8F}
+name: Rule
+key: rule
+content-length: 527
+
+<ruleset>
+  <rule uid="{59192414-EB9E-4883-B777-26DC3D369B4E}" name="Accordion Sections">
+    <conditions>
+      <condition id="{27656620-5971-47B9-9BEC-D3CAAD95A57C}" uid="64BED3E268B8495CA8BEEA6C310C38D9" operatorid="{537244C2-3A3F-4B81-A6ED-02AF494C0563}" value="accordionsections" />
+    </conditions>
+    <actions>
+      <action id="{B6AD3154-4A93-4F79-BA98-5A00366D3928}" uid="1BFC86B1FB2442A6B474875934B9D296" RenderingFolderItemId="{7BB276D5-0008-47C7-8395-4730CEFF620D}" />
+    </actions>
+  </rule>
+</ruleset>
+----version----
+language: en
+version: 1
+revision: 357ee637-39f7-4cec-bf1e-de3fe6f0cc7b
+
+----field----
+field: {45CF9130-802A-41BE-B3EB-C02F657DCC2E}
+name: Name
+key: name
+content-length: 34
+
+Elision.Feature.Template.Accordion
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 34
+
+Elision.Feature.Template.Accordion
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160614T181538Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+357ee637-39f7-4cec-bf1e-de3fe6f0cc7b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170216T161502Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin
