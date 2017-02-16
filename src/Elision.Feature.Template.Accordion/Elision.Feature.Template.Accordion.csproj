@@ -238,8 +238,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
-    <Content Include="Areas\ElisionFeature\Views\Accordion\Accordion.cshtml" />
-    <Content Include="Areas\ElisionFeature\Views\Accordion\Section.cshtml" />
+    <None Include="Areas\ElisionFeature\Views\Accordion\Accordion.cshtml" />
+    <None Include="Areas\ElisionFeature\Views\Accordion\Section.cshtml" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <None Include="Web.config" />
   </ItemGroup>
