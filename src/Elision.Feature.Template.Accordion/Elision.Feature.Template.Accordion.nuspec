@@ -7,6 +7,7 @@
     <authors>jrondeau</authors>
     <owners>jrondeau</owners>
     <projectUrl>https://github.com/sitecore-elision/elision-accordion</projectUrl>
+    <iconUrl>https://image.ibb.co/ihBV7Q/Elision_Logo.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>This is the Elision accordion feature package to reference if you need to install the entire feature. If you are building a module or other code that just needs to reference the Elision accordion feature, use the Elision.Feature.Accordion-redist package instead.</description>
     <releaseNotes></releaseNotes>
