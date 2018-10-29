@@ -2,7 +2,7 @@
 version: 1
 id: {7BB276D5-0008-47C7-8395-4730CEFF620D}
 database: master
-path: /sitecore/layout/Renderings/ElisionFeatureTemplateAccordion/Organization/Accordion
+path: /sitecore/layout/Renderings/Elision/Feature/ElisionFeatureTemplateAccordion/Organization/Accordion
 parent: {E47BBB16-E1B1-453D-A0E2-7F1F8963C289}
 name: Accordion
 master: {00000000-0000-0000-0000-000000000000}

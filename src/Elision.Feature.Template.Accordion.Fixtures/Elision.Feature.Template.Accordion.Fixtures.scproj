@@ -59,7 +59,7 @@
     <NuGetGenerateNuGetPackage>True</NuGetGenerateNuGetPackage>
     <NuGetExePath>..\.nuget</NuGetExePath>
     <NuGetSummary />
-    <NuGetDescription>TDS Feature Layer Item Fixtures for use with Elision Accordion.  Compatible with Sitecore 8.2 Update 2.</NuGetDescription>
+    <NuGetDescription>TDS Feature Layer Item Fixtures for use with Elision Accordion.  Compatible with Sitecore 9.</NuGetDescription>
     <NuGetTitle>Elision.Feature.Accordion TDS Fixtures</NuGetTitle>
     <NuGetVersion>0.0.1</NuGetVersion>
     <NuGetPackageId>Elision.Feature.Accordion.Fixtures</NuGetPackageId>
@@ -96,19 +96,27 @@
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
       <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\layout\Renderings\ElisionFeatureTemplateAccordion.item">
+    <SitecoreItem Include="sitecore\layout\Renderings\Elision.item">
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\layout\Renderings\Elision\Feature.item">
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\layout\Renderings\Elision\Feature\ElisionFeatureTemplateAccordion.item">
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\layout\Renderings\ElisionFeatureTemplateAccordion\Organization.item">
+    <SitecoreItem Include="sitecore\layout\Renderings\Elision\Feature\ElisionFeatureTemplateAccordion\Organization.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\layout\Renderings\ElisionFeatureTemplateAccordion\Organization\Accordion.item">
+    <SitecoreItem Include="sitecore\layout\Renderings\Elision\Feature\ElisionFeatureTemplateAccordion\Organization\Accordion.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\layout\Renderings\ElisionFeatureTemplateAccordion\Organization\Accordion\Accordion Section.item">
+    <SitecoreItem Include="sitecore\layout\Renderings\Elision\Feature\ElisionFeatureTemplateAccordion\Organization\Accordion\Accordion Section.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
@@ -140,51 +148,55 @@
       <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\ElisionFeatureTemplateAccordion.item">
+    <SitecoreItem Include="sitecore\templates\Elision.item">
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Elision\Feature.item">
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureTemplateAccordion.item">
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\ElisionFeatureTemplateAccordion\Base.item">
+    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureTemplateAccordion\Base.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\ElisionFeatureTemplateAccordion\Base\_HeadingText.item">
+    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureTemplateAccordion\Base\_HeadingText.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\ElisionFeatureTemplateAccordion\Base\_HeadingText\Data.item">
+    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureTemplateAccordion\Base\_HeadingText\Data.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\ElisionFeatureTemplateAccordion\Base\_HeadingText\Data\HeadingText.item">
+    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureTemplateAccordion\Base\_HeadingText\Data\HeadingText.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\ElisionFeatureTemplateAccordion\Base\_Text.item">
+    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureTemplateAccordion\Base\_Text.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\ElisionFeatureTemplateAccordion\Base\_Text\Data.item">
+    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureTemplateAccordion\Base\_Text\Data.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\ElisionFeatureTemplateAccordion\Base\_Text\Data\Text.item">
+    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureTemplateAccordion\Base\_Text\Data\Text.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\ElisionFeatureTemplateAccordion\Components.item">
+    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureTemplateAccordion\Components.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\ElisionFeatureTemplateAccordion\Components\AccordionSection.item">
+    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureTemplateAccordion\Components\AccordionSection.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\ElisionFeatureTemplateAccordion\Components\AccordionSection\__Standard Values.item">
-      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
-      <ItemDeployment>AlwaysUpdate</ItemDeployment>
-    </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\ElisionFeatureTemplateAccordion\RenderingParameters.item">
+    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureTemplateAccordion\Components\AccordionSection\__Standard Values.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>

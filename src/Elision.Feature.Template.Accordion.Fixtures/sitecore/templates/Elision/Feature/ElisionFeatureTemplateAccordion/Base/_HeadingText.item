@@ -1,20 +1,34 @@
 ----item----
 version: 1
-id: {2F37DC93-748C-40BD-94D9-9F57CDB8093B}
+id: {0D0A61D7-663D-4287-9F01-E1B686E2CF8A}
 database: master
-path: /sitecore/templates/ElisionFeatureTemplateAccordion/Base/_HeadingText/Data
-parent: {0D0A61D7-663D-4287-9F01-E1B686E2CF8A}
-name: Data
+path: /sitecore/templates/Elision/Feature/ElisionFeatureTemplateAccordion/Base/_HeadingText
+parent: {92DE9C3D-646F-48E8-9F27-F6E41AE187CA}
+name: _HeadingText
 master: {00000000-0000-0000-0000-000000000000}
-template: {E269FBB5-3750-427A-9149-7AA950B49301}
-templatekey: Template section
+template: {AB86861A-6030-46C5-B394-E8F99E8B87DB}
+templatekey: Template
 created: 20170216T162937Z
 
+----field----
+field: {12C33F3F-86C5-43A5-AEB4-5598CEC45116}
+name: __Base template
+key: __base template
+content-length: 38
+
+{1930BBEB-7805-471A-A3BE-4858AC7CF696}
 ----version----
 language: en
 version: 1
-revision: f7682e58-9932-4ee9-89e6-9302fe07e0eb
+revision: 94cb479c-2013-4ab1-82f8-a6ac921de2cc
 
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 12
+
+_HeadingText
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -28,21 +42,21 @@ name: __Created
 key: __created
 content-length: 16
 
-20170212T013523Z
+20170212T013447Z
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-f7682e58-9932-4ee9-89e6-9302fe07e0eb
+94cb479c-2013-4ab1-82f8-a6ac921de2cc
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20170212T013523Z
+20170216T162938Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
