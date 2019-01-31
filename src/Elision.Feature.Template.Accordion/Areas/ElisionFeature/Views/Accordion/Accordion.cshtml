@@ -1,8 +1,7 @@
-﻿@using Elision.Foundation.DynamicPlaceholders
-@using Sitecore.Mvc
+﻿@using Sitecore.Mvc
 
 <section class="component accordion" data-module="components/accordionController">
     <ul class="accordion__items">
-        @Html.Sitecore().DynamicPlaceholder("accordionsections")               
+        @Html.Sitecore().DynamicPlaceholder("accordionsections")
     </ul>
 </section>
