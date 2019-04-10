@@ -18,7 +18,7 @@ namespace Elision.Feature.Template.Accordion.SC.Integration
         /// <summary>
         /// <list type="table">
         ///     <item><term>Template ID:</term><description>{0D0A61D7-663D-4287-9F01-E1B686E2CF8A}</description></item>
-        ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Feature/ElisionFeatureTemplateAccordion/Base/_HeadingText</description></item>
+        ///     <item><term>Path:</term><description>/sitecore/templates/Feature/Elision/ElisionFeatureTemplateAccordion/Base/_HeadingText</description></item>
         /// </list>
         /// </summary>
         public struct _HeadingText
@@ -32,7 +32,7 @@ namespace Elision.Feature.Template.Accordion.SC.Integration
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
                 ///     <item><term>Field ID:</term><description>{3A413749-C918-4508-AAD9-78EF521A8E89}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Feature/ElisionFeatureTemplateAccordion/Base/_HeadingText/Data/HeadingText</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Feature/Elision/ElisionFeatureTemplateAccordion/Base/_HeadingText/Data/HeadingText</description></item>
                 /// </list>
                 /// </summary>
                 public static readonly ID HeadingText = new ID("{3A413749-C918-4508-AAD9-78EF521A8E89}");
@@ -44,7 +44,7 @@ namespace Elision.Feature.Template.Accordion.SC.Integration
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
                 ///     <item><term>Field ID:</term><description>{3A413749-C918-4508-AAD9-78EF521A8E89}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Feature/ElisionFeatureTemplateAccordion/Base/_HeadingText/Data/HeadingText</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Feature/Elision/ElisionFeatureTemplateAccordion/Base/_HeadingText/Data/HeadingText</description></item>
                 /// </list>
                 /// </summary>
                 public const string HeadingText = "HeadingText";
@@ -72,7 +72,7 @@ namespace Elision.Feature.Template.Accordion.SC.Integration
         /// <summary>
         /// <list type="table">
         ///     <item><term>Template ID:</term><description>{2947978B-EB2D-4EEC-8C1C-198D1C23CB2B}</description></item>
-        ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Feature/ElisionFeatureTemplateAccordion/Components/AccordionSection</description></item>
+        ///     <item><term>Path:</term><description>/sitecore/templates/Feature/Elision/ElisionFeatureTemplateAccordion/Components/AccordionSection</description></item>
         /// </list>
         /// </summary>
         public struct AccordionSection
@@ -86,7 +86,7 @@ namespace Elision.Feature.Template.Accordion.SC.Integration
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
                 ///     <item><term>Field ID:</term><description>{3A413749-C918-4508-AAD9-78EF521A8E89}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Feature/ElisionFeatureTemplateAccordion/Base/_HeadingText/Data/HeadingText</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Feature/Elision/ElisionFeatureTemplateAccordion/Base/_HeadingText/Data/HeadingText</description></item>
                 /// </list>
                 /// <para>This is an inherited template field</para>
                 /// </summary>
@@ -95,7 +95,7 @@ namespace Elision.Feature.Template.Accordion.SC.Integration
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Rich Text</description></item>
                 ///     <item><term>Field ID:</term><description>{AE9BA160-3E55-4F25-A514-EFE58728488F}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Feature/ElisionFeatureTemplateAccordion/Base/_Text/Data/Text</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Feature/Elision/ElisionFeatureTemplateAccordion/Base/_Text/Data/Text</description></item>
                 /// </list>
                 /// <para>This is an inherited template field</para>
                 /// </summary>
@@ -108,7 +108,7 @@ namespace Elision.Feature.Template.Accordion.SC.Integration
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
                 ///     <item><term>Field ID:</term><description>{3A413749-C918-4508-AAD9-78EF521A8E89}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Feature/ElisionFeatureTemplateAccordion/Base/_HeadingText/Data/HeadingText</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Feature/Elision/ElisionFeatureTemplateAccordion/Base/_HeadingText/Data/HeadingText</description></item>
                 /// </list>
                 /// <para>This is an inherited template field</para>
                 /// </summary>
@@ -117,7 +117,7 @@ namespace Elision.Feature.Template.Accordion.SC.Integration
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Rich Text</description></item>
                 ///     <item><term>Field ID:</term><description>{AE9BA160-3E55-4F25-A514-EFE58728488F}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Feature/ElisionFeatureTemplateAccordion/Base/_Text/Data/Text</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Feature/Elision/ElisionFeatureTemplateAccordion/Base/_Text/Data/Text</description></item>
                 /// </list>
                 /// <para>This is an inherited template field</para>
                 /// </summary>
@@ -135,7 +135,7 @@ namespace Elision.Feature.Template.Accordion.SC.Integration
             /// <summary>
             /// <list type="table">
             ///     <item><term>Rendering ID:</term><description>{7BB276D5-0008-47C7-8395-4730CEFF620D}</description></item>
-            ///     <item><term>Path:</term><description>/sitecore/layout/Renderings/Elision/Feature/ElisionFeatureTemplateAccordion/Organization/Accordion</description></item>
+            ///     <item><term>Path:</term><description>/sitecore/layout/Renderings/Feature/Elision/ElisionFeatureTemplateAccordion/Organization/Accordion</description></item>
             /// </list>
             /// </summary>
             public static readonly ID Accordion = new ID("{7BB276D5-0008-47C7-8395-4730CEFF620D}");
@@ -152,7 +152,7 @@ namespace Elision.Feature.Template.Accordion.SC.Integration
             /// The Accordion Section rendering.
             /// <list type="table">
             ///     <item><term>Rendering ID:</term><description>{88EB60A3-77C0-43B1-A6A6-C9F2470AA819}</description></item>
-            ///     <item><term>Path:</term><description>/sitecore/layout/Renderings/Elision/Feature/ElisionFeatureTemplateAccordion/Organization/Accordion/Accordion Section</description></item>
+            ///     <item><term>Path:</term><description>/sitecore/layout/Renderings/Feature/Elision/ElisionFeatureTemplateAccordion/Organization/Accordion/Accordion Section</description></item>
             /// </list>
             /// </summary>
             public static readonly ID Accordion_Section = new ID("{88EB60A3-77C0-43B1-A6A6-C9F2470AA819}");
@@ -166,7 +166,7 @@ namespace Elision.Feature.Template.Accordion.SC.Integration
         /// <summary>
         /// <list type="table">
         ///     <item><term>Template ID:</term><description>{9A3EA90B-1D8E-4E84-ACBC-9A7BEA167181}</description></item>
-        ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Feature/ElisionFeatureTemplateAccordion/Base/_Text</description></item>
+        ///     <item><term>Path:</term><description>/sitecore/templates/Feature/Elision/ElisionFeatureTemplateAccordion/Base/_Text</description></item>
         /// </list>
         /// </summary>
         public struct _Text
@@ -180,7 +180,7 @@ namespace Elision.Feature.Template.Accordion.SC.Integration
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Rich Text</description></item>
                 ///     <item><term>Field ID:</term><description>{AE9BA160-3E55-4F25-A514-EFE58728488F}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Feature/ElisionFeatureTemplateAccordion/Base/_Text/Data/Text</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Feature/Elision/ElisionFeatureTemplateAccordion/Base/_Text/Data/Text</description></item>
                 /// </list>
                 /// </summary>
                 public static readonly ID Text = new ID("{AE9BA160-3E55-4F25-A514-EFE58728488F}");
@@ -192,7 +192,7 @@ namespace Elision.Feature.Template.Accordion.SC.Integration
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Rich Text</description></item>
                 ///     <item><term>Field ID:</term><description>{AE9BA160-3E55-4F25-A514-EFE58728488F}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Feature/ElisionFeatureTemplateAccordion/Base/_Text/Data/Text</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Feature/Elision/ElisionFeatureTemplateAccordion/Base/_Text/Data/Text</description></item>
                 /// </list>
                 /// </summary>
                 public const string Text = "Text";
